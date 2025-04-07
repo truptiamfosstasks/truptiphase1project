@@ -3,7 +3,7 @@ Welcome to my personal portfolio website! This site is a creative showcase of my
 and professional information — all wrapped in a sleek, modern interface.
 
 🌐 Live Preview
-Link: Coming Soon (Deploy on GitHub Pages)
+Link: https://truptiamfosstasks.github.io/truptiphase1project/
 
 📁 Project Structure
 This is a static HTML project structured as follows:
@@ -51,11 +51,6 @@ open myprot.html   # macOS
 
 3. Deploy (Optional)
 You can deploy this portfolio using:
-
-GitHub Pages
-
-📸 Screenshots
-Add screenshots of your website to give visitors a preview.
 
 📬 Contact
 Want to connect or collaborate?
