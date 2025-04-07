@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(32, 32, 31);
+            margin: 0;
+            font-family: serif;
+            color: aliceblue;
+        }
+
+        nav {
+            background-color: rgb(120, 118, 118);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        nav h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav-links a:hover {
+            color: black;
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-content img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border: 2px outset rgb(113, 109, 109);
+            margin: 20px;
+        }
+
+        .text-content {
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        .text-content h2 {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .text-content p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin: 10px 10px 0 0;
+            padding: 10px 20px;
+            font-size: 20px;
+            color: rgb(21, 24, 27);
+            background-color: rgb(160, 163, 163);
+            border: 2px solid white;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 10px;
+            }
+
+            .text-content {
+                text-align: center;
+                padding: 10px;
+            }
+
+            .text-content h2 {
+                font-size: 40px;
+            }
+
+            .buttons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .buttons a {
+                font-size: 18px;
+                width: 80%;
+                text-align: center;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h1>Trupti Talampalli</h1>
+        <div class="nav-links">
+            <a href="index.html" target="_blank">Back</a>
+            <a href="home.html" target="_blank">Home</a>
+            <a href="aboutme.html" target="_blank">About Me</a>
+            <a href="conatct.html" target="_blank">Contact</a>
+            <a href="certificates.html" target="_blank">Certificates</a>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main-content">
+        <img src="tupi5.jpg" alt="Portfolio Image">
+        <div class="text-content">
+            <h2>My <br> Portfolio</h2>
+            <p>
+                Welcome to my portfolio, where creativity meets innovation. Explore my journey as a UG student and discover the projects that showcase my skills and passion. Let's turn ideas into reality, together!
+            </p>
+            <div class="buttons">
+                <a href="explore.html" target="_blank">Explore &gt;&gt;</a>
+                <a href="resume.html" target="_blank">Resume &gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
